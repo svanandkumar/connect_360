@@ -1,0 +1,324 @@
+!SESSION 2018-06-14 18:23:42.126 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.ibm.issw.migr.osgi.liberty 4 0 2018-06-14 18:23:46.517
+!MESSAGE Component descriptor entry 'wsadmin.xml' not found
+
+!ENTRY com.ibm.issw.migr.osgi.wasconfig 4 0 2018-06-14 18:23:46.521
+!MESSAGE Component descriptor entry 'cell.xml' not found
+
+!ENTRY com.ibm.issw.migr.osgi.wasconfig.jboss 4 0 2018-06-14 18:23:46.523
+!MESSAGE Component descriptor entry 'component.xml' not found
+
+!ENTRY com.ibm.issw.migr.osgi.wasconfig.was 4 0 2018-06-14 18:23:46.526
+!MESSAGE Component descriptor entry 'cell.xml' not found
+
+!ENTRY com.ibm.issw.migr.osgi.wasconfig.wls 4 0 2018-06-14 18:23:46.529
+!MESSAGE Component descriptor entry 'cell.xml' not found
+
+!ENTRY com.ibm.issw.migr.osgi.wsadmin 4 0 2018-06-14 18:23:46.531
+!MESSAGE Component descriptor entry 'wsadmin.xml' not found
+
+!ENTRY org.eclipse.ui 4 4 2018-06-14 18:24:05.568
+!MESSAGE Referenced part does not exist yet: com.ibm.etools.ui.navigator.SDExplorer.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-14 18:24:11.774
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\IBM_ADMIN'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.ibm.ws.jaxrs.core 4 0 2018-06-14 18:27:11.837
+!MESSAGE CosdabactransactionRepository [in CosdabactransactionRepository.java [in com.ibm.gbs.auth.repository [in src/main/java [in auth]]]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [CosdabactransactionRepository [in CosdabactransactionRepository.java [in com.ibm.gbs.auth.repository [in src/main/java [in auth]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
+	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
+	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-06-14 18:27:11.839
+!MESSAGE CosdabactransactionRepository [in CosdabactransactionRepository.java [in com.ibm.gbs.auth.repository [in src/main/java [in auth]]]] does not exist
+
+!ENTRY com.ibm.ws.jaxrs.core 4 0 2018-06-14 18:27:11.878
+!MESSAGE RoleRepository [in RoleRepository.java [in com.ibm.gbs.auth.repository [in src/main/java [in auth]]]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [RoleRepository [in RoleRepository.java [in com.ibm.gbs.auth.repository [in src/main/java [in auth]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
+	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
+	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-06-14 18:27:11.879
+!MESSAGE RoleRepository [in RoleRepository.java [in com.ibm.gbs.auth.repository [in src/main/java [in auth]]]] does not exist
+
+!ENTRY com.ibm.ws.jaxrs.core 4 0 2018-06-14 18:27:11.950
+!MESSAGE AbacAuthenticationProvider [in AbacAuthenticationProvider.java [in com.ibm.gbs.auth.security.service [in src/main/java [in auth]]]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [AbacAuthenticationProvider [in AbacAuthenticationProvider.java [in com.ibm.gbs.auth.security.service [in src/main/java [in auth]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
+	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
+	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-06-14 18:27:11.950
+!MESSAGE AbacAuthenticationProvider [in AbacAuthenticationProvider.java [in com.ibm.gbs.auth.security.service [in src/main/java [in auth]]]] does not exist
+
+!ENTRY com.ibm.ws.jaxrs.core 4 0 2018-06-14 18:27:29.833
+!MESSAGE package-info [in package-info.java [in com.ibm.mdm.esoa.client [in src/main/java [in auth]]]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [package-info [in package-info.java [in com.ibm.mdm.esoa.client [in src/main/java [in auth]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
+	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
+	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-06-14 18:27:29.833
+!MESSAGE package-info [in package-info.java [in com.ibm.mdm.esoa.client [in src/main/java [in auth]]]] does not exist
+
+!ENTRY com.ibm.ws.jaxrs.core 4 0 2018-06-14 18:27:41.223
+!MESSAGE package-info [in package-info.java [in com.initiate.client [in src/main/java [in auth]]]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [package-info [in package-info.java [in com.initiate.client [in src/main/java [in auth]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
+	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
+	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-06-14 18:27:41.224
+!MESSAGE package-info [in package-info.java [in com.initiate.client [in src/main/java [in auth]]]] does not exist
+
+!ENTRY com.ibm.ws.jaxrs.core 4 0 2018-06-14 18:27:41.666
+!MESSAGE SchemaGeneratorDemo [in SchemaGeneratorDemo.java [in com.websystique.springboot [in src/test/java [in auth]]]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [SchemaGeneratorDemo [in SchemaGeneratorDemo.java [in com.websystique.springboot [in src/test/java [in auth]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
+	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
+	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-06-14 18:27:41.667
+!MESSAGE SchemaGeneratorDemo [in SchemaGeneratorDemo.java [in com.websystique.springboot [in src/test/java [in auth]]]] does not exist
+
+!ENTRY com.ibm.ws.jaxrs.core 4 0 2018-06-14 18:29:02.306
+!MESSAGE CosdabactransactionRepository [in CosdabactransactionRepository.java [in com.ibm.gbs.auth.repository [in src/main/java [in auth]]]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [CosdabactransactionRepository [in CosdabactransactionRepository.java [in com.ibm.gbs.auth.repository [in src/main/java [in auth]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
+	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
+	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-06-14 18:29:02.307
+!MESSAGE CosdabactransactionRepository [in CosdabactransactionRepository.java [in com.ibm.gbs.auth.repository [in src/main/java [in auth]]]] does not exist
+
+!ENTRY com.ibm.ws.jaxrs.core 4 0 2018-06-14 18:29:02.313
+!MESSAGE RoleRepository [in RoleRepository.java [in com.ibm.gbs.auth.repository [in src/main/java [in auth]]]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [RoleRepository [in RoleRepository.java [in com.ibm.gbs.auth.repository [in src/main/java [in auth]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
+	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
+	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-06-14 18:29:02.313
+!MESSAGE RoleRepository [in RoleRepository.java [in com.ibm.gbs.auth.repository [in src/main/java [in auth]]]] does not exist
+
+!ENTRY com.ibm.ws.jaxrs.core 4 0 2018-06-14 18:29:02.329
+!MESSAGE AbacAuthenticationProvider [in AbacAuthenticationProvider.java [in com.ibm.gbs.auth.security.service [in src/main/java [in auth]]]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [AbacAuthenticationProvider [in AbacAuthenticationProvider.java [in com.ibm.gbs.auth.security.service [in src/main/java [in auth]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
+	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
+	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-06-14 18:29:02.330
+!MESSAGE AbacAuthenticationProvider [in AbacAuthenticationProvider.java [in com.ibm.gbs.auth.security.service [in src/main/java [in auth]]]] does not exist
+
+!ENTRY com.ibm.ws.jaxrs.core 4 0 2018-06-14 18:29:04.972
+!MESSAGE package-info [in package-info.java [in com.ibm.mdm.esoa.client [in src/main/java [in auth]]]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [package-info [in package-info.java [in com.ibm.mdm.esoa.client [in src/main/java [in auth]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
+	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
+	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-06-14 18:29:04.973
+!MESSAGE package-info [in package-info.java [in com.ibm.mdm.esoa.client [in src/main/java [in auth]]]] does not exist
+
+!ENTRY com.ibm.ws.jaxrs.core 4 0 2018-06-14 18:29:05.302
+!MESSAGE package-info [in package-info.java [in com.initiate.client [in src/main/java [in auth]]]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [package-info [in package-info.java [in com.initiate.client [in src/main/java [in auth]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
+	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
+	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-06-14 18:29:05.302
+!MESSAGE package-info [in package-info.java [in com.initiate.client [in src/main/java [in auth]]]] does not exist
+
+!ENTRY com.ibm.ws.jaxrs.core 4 0 2018-06-14 18:29:05.336
+!MESSAGE SchemaGeneratorDemo [in SchemaGeneratorDemo.java [in com.websystique.springboot [in src/test/java [in auth]]]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [SchemaGeneratorDemo [in SchemaGeneratorDemo.java [in com.websystique.springboot [in src/test/java [in auth]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:594)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.SourceType.isInterface(SourceType.java:608)
+	at com.ibm.ws.jaxrs.finder.AbstractSourceFinder.resourceChanged(AbstractSourceFinder.java:299)
+	at com.ibm.ccl.ws.internal.finder.core.notifier.impl.NotifyResourceChangedJob.run(NotifyResourceChangedJob.java:66)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-06-14 18:29:05.336
+!MESSAGE SchemaGeneratorDemo [in SchemaGeneratorDemo.java [in com.websystique.springboot [in src/test/java [in auth]]]] does not exist
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-06-14 19:10:48.329
+!MESSAGE No repository found at http://spring.io/tools/sts.
+!SESSION 2018-06-19 11:11:31.225 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.ibm.issw.migr.osgi.liberty 4 0 2018-06-19 11:11:36.195
+!MESSAGE Component descriptor entry 'wsadmin.xml' not found
+
+!ENTRY com.ibm.issw.migr.osgi.wasconfig 4 0 2018-06-19 11:11:36.199
+!MESSAGE Component descriptor entry 'cell.xml' not found
+
+!ENTRY com.ibm.issw.migr.osgi.wasconfig.jboss 4 0 2018-06-19 11:11:36.201
+!MESSAGE Component descriptor entry 'component.xml' not found
+
+!ENTRY com.ibm.issw.migr.osgi.wasconfig.was 4 0 2018-06-19 11:11:36.202
+!MESSAGE Component descriptor entry 'cell.xml' not found
+
+!ENTRY com.ibm.issw.migr.osgi.wasconfig.wls 4 0 2018-06-19 11:11:36.204
+!MESSAGE Component descriptor entry 'cell.xml' not found
+
+!ENTRY com.ibm.issw.migr.osgi.wsadmin 4 0 2018-06-19 11:11:36.206
+!MESSAGE Component descriptor entry 'wsadmin.xml' not found
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-06-19 11:12:06.831
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-19 11:12:45.907
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\IBM_ADMIN'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-06-19 11:31:07.597
+!MESSAGE No repository found at http://spring.io/tools/sts.
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2018-06-20 16:31:26.555
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-21 12:04:19.377
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-21 12:04:19.392
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-21 12:09:34.655
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-21 12:09:34.656
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2018-06-22 11:19:25.941 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.ibm.issw.migr.osgi.liberty 4 0 2018-06-22 11:19:29.314
+!MESSAGE Component descriptor entry 'wsadmin.xml' not found
+
+!ENTRY com.ibm.issw.migr.osgi.wasconfig 4 0 2018-06-22 11:19:29.317
+!MESSAGE Component descriptor entry 'cell.xml' not found
+
+!ENTRY com.ibm.issw.migr.osgi.wasconfig.jboss 4 0 2018-06-22 11:19:29.319
+!MESSAGE Component descriptor entry 'component.xml' not found
+
+!ENTRY com.ibm.issw.migr.osgi.wasconfig.was 4 0 2018-06-22 11:19:29.321
+!MESSAGE Component descriptor entry 'cell.xml' not found
+
+!ENTRY com.ibm.issw.migr.osgi.wasconfig.wls 4 0 2018-06-22 11:19:29.323
+!MESSAGE Component descriptor entry 'cell.xml' not found
+
+!ENTRY com.ibm.issw.migr.osgi.wsadmin 4 0 2018-06-22 11:19:29.325
+!MESSAGE Component descriptor entry 'wsadmin.xml' not found
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-06-22 11:19:44.230
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-22 11:20:28.230
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\IBM_ADMIN'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-06-22 11:52:19.503
+!MESSAGE No repository found at http://spring.io/tools/sts.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-22 16:01:33.713
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-22 16:01:33.716
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-22 16:03:35.883
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-22 16:03:35.884
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2018-06-22 16:13:45.559
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
