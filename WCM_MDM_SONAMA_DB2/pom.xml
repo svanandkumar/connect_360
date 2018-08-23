@@ -16,6 +16,12 @@
           <defaultLibBundleDir>lib</defaultLibBundleDir>
         </configuration>
       </plugin>
+      <!-- <plugin>
+         <artifactId>maven-ear-plugin</artifactId>
+        <version>3.0.1</version>
+      
+        
+        </plugin> -->
     </plugins>
   </build>
 </project>
